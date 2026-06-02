@@ -1,52 +1,92 @@
 import json
-import requests
-from bs4 import BeautifulSoup
 import os
+import requests
 
-URL = "https://shop.travelerscompanyusa.com/pages/all-products"
+SHOP_URL = "https://shop.travelerscompanyusa.com"
 
 WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 
-response = requests.get(URL, timeout=30)
-response.raise_for_status()
+STATE_FILE = "known_products.json"
 
-soup = BeautifulSoup(response.text, "html.parser")
 
-products = {}
-
-for link in soup.find_all("a", href=True):
-    href = link["href"]
-
-    if "/products/" not in href:
-        continue
-
-    name = link.get_text(strip=True)
-
-    if len(name) < 5:
-        continue
-
-    full_url = f"https://shop.travelerscompanyusa.com{href}"
-
-    products[name] = full_url
-
-try:
-    with open("known_products.json", "r") as f:
-        known = set(json.load(f))
-except:
-    known = set()
-
-current = set(products.keys())
-
-new_items = current - known
-
-for item in sorted(new_items):
+def send(msg):
     requests.post(
         WEBHOOK,
-        json={
-            "content":
-            f"🚨 NEW TRAVELER'S COMPANY PRODUCT\n\n{item}\n{products[item]}"
-        }
+        json={"content": msg},
+        timeout=30
     )
 
-with open("known_products.json", "w") as f:
-    json.dump(sorted(current), f, indent=2)
+
+# Shopify product feed
+url = f"{SHOP_URL}/products.json?limit=250"
+
+r = requests.get(url, timeout=30)
+r.raise_for_status()
+
+products = r.json()["products"]
+
+current = {}
+
+for product in products:
+
+    title = product["title"]
+
+    available = any(
+        variant["available"]
+        for variant in product["variants"]
+    )
+
+    current[title] = {
+        "available": available,
+        "url": f"{SHOP_URL}/products/{product['handle']}"
+    }
+
+try:
+    with open(STATE_FILE, "r") as f:
+        previous = json.load(f)
+except:
+    previous = {}
+
+# NEW PRODUCTS
+
+for title in current:
+
+    if title not in previous:
+
+        send(
+            f"🚨 **NEW PRODUCT**\n\n"
+            f"{title}\n"
+            f"{current[title]['url']}"
+        )
+
+# RESTOCKS
+
+for title in current:
+
+    if title not in previous:
+        continue
+
+    was_available = previous[title]["available"]
+    now_available = current[title]["available"]
+
+    if not was_available and now_available:
+
+        send(
+            f"✅ **RESTOCK**\n\n"
+            f"{title}\n"
+            f"{current[title]['url']}"
+        )
+
+# REMOVED PRODUCTS
+
+for title in previous:
+
+    if title not in current:
+
+        send(
+            f"❌ **PRODUCT REMOVED**\n\n"
+            f"{title}"
+        )
+
+with open(STATE_FILE, "w") as f:
+    json.dump(current, f, indent=2)
