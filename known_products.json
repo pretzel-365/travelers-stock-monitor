@@ -56,7 +56,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/leather-coaster-circle-camel"
   },
   "TF Leather Coaster Circle Brown": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/leather-coaster-circle-brown"
   },
   "TF Leather Coaster Circle Black": {
@@ -308,7 +308,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/031-sticker-release-paper"
   },
   "TRAVELER'S notebook Refill Let\u2019s Go on a Road Trip (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-let-s-go-on-a-road-trip-passport-size"
   },
   "TRAVELER'S notebook Refill The Golden Coast California (Regular Size)": {
@@ -756,7 +756,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-camel"
   },
   "Brown (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown"
   },
   "Black (Regular Size)": {
