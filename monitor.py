@@ -6,7 +6,7 @@ SHOP_URL = "https://shop.travelerscompanyusa.com"
 WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 
 if not WEBHOOK:
-raise Exception("DISCORD_WEBHOOK secret is missing")
+    raise Exception("DISCORD_WEBHOOK secret is missing")
 
 STATE_FILE = "known_products.json"
 
