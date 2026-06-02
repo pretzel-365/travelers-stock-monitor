@@ -11,39 +11,34 @@ if not WEBHOOK:
 STATE_FILE = "known_products.json"
 
 KEYWORDS = [
-"olive",
-"camel",
-"factory",
-"traveler's factory",
-"tokyo",
-"brass",
-"limited",
-"love and trip",
-"airline",
-"train",
-"hotel",
-"records",
-"partner shop"
+    "olive",
+    "camel",
+    "factory",
+    "traveler's factory",
+    "tokyo",
+    "brass",
+    "limited",
+    "love and trip",
+    "airline",
+    "train",
+    "hotel",
+    "records",
+    "partner shop"
 ]
 
+
 def send(message):
-requests.post(
-WEBHOOK,
-json={"content": message},
-timeout=30
-)
+    requests.post(WEBHOOK, json={"content": message}, timeout=30)
+
 
 def normalize(text):
-return text.lower().replace("'", "").replace("’", "")
+    return text.lower().replace("'", "").replace("’", "")
+
 
 def matches_keywords(title):
-normalized_title = normalize(title)
-return any(
-normalize(keyword) in normalized_title
-for keyword in KEYWORDS
-)
+    title = normalize(title)
+    return any(normalize(k) in title for k in KEYWORDS)
 
-# Load current products from Shopify
 
 url = f"{SHOP_URL}/products.json?limit=250"
 
@@ -55,77 +50,44 @@ products = response.json()["products"]
 current = {}
 
 for product in products:
-title = product["title"]
+    title = product["title"]
 
-```
-available = any(
-    variant["available"]
-    for variant in product["variants"]
-)
+    available = any(v["available"] for v in product["variants"])
 
-current[title] = {
-    "available": available,
-    "url": f"{SHOP_URL}/products/{product['handle']}"
-}
-```
-
-# Load previous state
+    current[title] = {
+        "available": available,
+        "url": f"{SHOP_URL}/products/{product['handle']}"
+    }
 
 try:
-with open(STATE_FILE, "r") as f:
-previous = json.load(f)
-except Exception:
-previous = {}
-
-# NEW PRODUCTS
+    with open(STATE_FILE, "r") as f:
+        previous = json.load(f)
+except:
+    previous = {}
 
 for title in current:
+    if not matches_keywords(title):
+        continue
 
-```
-if not matches_keywords(title):
-    continue
-
-if title not in previous:
-    send(
-        f"🚨 **NEW PRODUCT**\n\n{title}\n{current[title]['url']}"
-    )
-```
-
-# RESTOCKS
+    if title not in previous:
+        send(f"🚨 NEW PRODUCT\n\n{title}\n{current[title]['url']}")
 
 for title in current:
+    if not matches_keywords(title):
+        continue
 
-```
-if not matches_keywords(title):
-    continue
+    if title not in previous:
+        continue
 
-if title not in previous:
-    continue
-
-was_available = previous[title]["available"]
-now_available = current[title]["available"]
-
-if not was_available and now_available:
-    send(
-        f"✅ **RESTOCK**\n\n{title}\n{current[title]['url']}"
-    )
-```
-
-# REMOVED PRODUCTS
+    if not previous[title]["available"] and current[title]["available"]:
+        send(f"✅ RESTOCK\n\n{title}\n{current[title]['url']}")
 
 for title in previous:
+    if not matches_keywords(title):
+        continue
 
-```
-if not matches_keywords(title):
-    continue
-
-if title not in current:
-    send(
-        f"❌ **PRODUCT REMOVED**\n\n{title}"
-    )
-```
-
-# Save current state
+    if title not in current:
+        send(f"❌ PRODUCT REMOVED\n\n{title}")
 
 with open(STATE_FILE, "w") as f:
-json.dump(current, f, indent=2)
+    json.dump(current, f, indent=2)
