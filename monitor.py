@@ -3,7 +3,11 @@ import os
 import requests
 
 SHOP_URL = "https://shop.travelerscompanyusa.com"
-WEBHOOK = os.environ["DISCORD_WEBHOOK"]
+WEBHOOK = os.getenv("DISCORD_WEBHOOK")
+
+if not WEBHOOK:
+    raise Exception("DISCORD_WEBHOOK secret is missing")
+    
 STATE_FILE = "known_products.json"
 
 KEYWORDS = [
