@@ -6,38 +6,24 @@ SHOP_URL = "https://shop.travelerscompanyusa.com"
 WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 
 if not WEBHOOK:
-    raise Exception("DISCORD_WEBHOOK secret is missing")
-    
+raise Exception("DISCORD_WEBHOOK secret is missing")
+
 STATE_FILE = "known_products.json"
 
 KEYWORDS = [
-# Notebook colors
 "olive",
 "camel",
-
-```
-# Traveler's Factory exclusives
 "factory",
 "traveler's factory",
 "tokyo",
-
-# Popular accessory line
 "brass",
-
-# Limited editions
 "limited",
-
-# Special releases
 "love and trip",
 "airline",
 "train",
 "hotel",
 "records",
-
-# Partner Shop exclusives
 "partner shop"
-```
-
 ]
 
 def send(message):
@@ -48,21 +34,14 @@ timeout=30
 )
 
 def normalize(text):
-return (
-text.lower()
-.replace("'", "")
-.replace("’", "")
-)
+return text.lower().replace("'", "").replace("’", "")
 
 def matches_keywords(title):
 normalized_title = normalize(title)
-
-```
 return any(
-    normalize(keyword) in normalized_title
-    for keyword in KEYWORDS
+normalize(keyword) in normalized_title
+for keyword in KEYWORDS
 )
-```
 
 # Load current products from Shopify
 
@@ -76,10 +55,9 @@ products = response.json()["products"]
 current = {}
 
 for product in products:
-
-```
 title = product["title"]
 
+```
 available = any(
     variant["available"]
     for variant in product["variants"]
@@ -99,7 +77,7 @@ previous = json.load(f)
 except Exception:
 previous = {}
 
-# New products
+# NEW PRODUCTS
 
 for title in current:
 
@@ -108,15 +86,12 @@ if not matches_keywords(title):
     continue
 
 if title not in previous:
-
     send(
-        f"🚨 **NEW PRODUCT**\n\n"
-        f"{title}\n"
-        f"{current[title]['url']}"
+        f"🚨 **NEW PRODUCT**\n\n{title}\n{current[title]['url']}"
     )
 ```
 
-# Restocks
+# RESTOCKS
 
 for title in current:
 
@@ -131,15 +106,12 @@ was_available = previous[title]["available"]
 now_available = current[title]["available"]
 
 if not was_available and now_available:
-
     send(
-        f"✅ **RESTOCK**\n\n"
-        f"{title}\n"
-        f"{current[title]['url']}"
+        f"✅ **RESTOCK**\n\n{title}\n{current[title]['url']}"
     )
 ```
 
-# Removed products
+# REMOVED PRODUCTS
 
 for title in previous:
 
@@ -148,10 +120,8 @@ if not matches_keywords(title):
     continue
 
 if title not in current:
-
     send(
-        f"❌ **PRODUCT REMOVED**\n\n"
-        f"{title}"
+        f"❌ **PRODUCT REMOVED**\n\n{title}"
     )
 ```
 
