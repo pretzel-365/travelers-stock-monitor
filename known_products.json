@@ -680,11 +680,11 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-line-md"
   },
   "Blue (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-blue"
   },
   "Camel (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-camel"
   },
   "Brown (Passport Size)": {
