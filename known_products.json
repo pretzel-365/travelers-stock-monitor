@@ -1,4 +1,8 @@
 {
+  "Plastic Sheet 2026 (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-plastic-sheet-2026-regular-size"
+  },
   "TF Canvas Pouch (L) Blue": {
     "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-l-blue"
@@ -152,7 +156,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-love-and-trip"
   },
   "Customized Sticker Set for Diary 2026": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-customized-sticker-set-for-diary-2026"
   },
   "Brass Clip ROAD TRIP": {
@@ -207,17 +211,9 @@
     "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/tf-travelers-notebook-cotton-zipper-case-beige-passport-size"
   },
-  "TF TRAVELER'S notebook Cotton Zipper Case Brown (Passport Size)": {
-    "available": false,
-    "url": "https://shop.travelerscompanyusa.com/products/tf-travelers-notebook-cotton-zipper-case-brown-passport-size"
-  },
   "TF TRAVELER'S notebook Cotton Zipper Case Beige": {
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/tf-travelers-notebook-cotton-zipper-case-beige"
-  },
-  "TF TRAVELER'S notebook Cotton Zipper Case Brown": {
-    "available": false,
-    "url": "https://shop.travelerscompanyusa.com/products/tf-travelers-notebook-cotton-zipper-case-brown"
   },
   "029 Three-fold File": {
     "available": true,
