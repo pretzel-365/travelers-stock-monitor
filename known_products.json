@@ -260,7 +260,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/hibi-10-minutes-aroma-trc-geranium"
   },
   "TRC USA x Art Toolkit TRAVEL & SKETCH Pocket Palette": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/trc-usa-x-art-toolkit-travel-sketch-pocket-palette"
   },
   "Olive (Regular Size)": {
@@ -304,11 +304,11 @@
     "url": "https://shop.travelerscompanyusa.com/products/031-sticker-release-paper"
   },
   "TRAVELER'S notebook Refill Let\u2019s Go on a Road Trip (Passport Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-let-s-go-on-a-road-trip-passport-size"
   },
   "TRAVELER'S notebook Refill The Golden Coast California (Regular Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-the-golden-coast-california-regular-size"
   },
   "TF Brass Tag Japan Trip": {
