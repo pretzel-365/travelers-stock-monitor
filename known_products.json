@@ -564,7 +564,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/trc-brass-pencil-solid-brass"
   },
   "BALLPOINT PEN": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/trc-brass-ball-point-pen-solid-brass"
   },
   "with String (S) Brown": {
@@ -776,7 +776,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-brown"
   },
   "Black (Passport Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-black"
   },
   "021 Connecting Rubber Band": {
@@ -808,7 +808,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-light-paper-notebook"
   },
   "012 Sketch Paper Notebook": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-sketch-notebook"
   },
   "011 Refill Binder": {
