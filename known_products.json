@@ -251,10 +251,6 @@
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brass-clip-road-trip"
   },
-  "TRAVELER'S notebook Brown ROAD TRIP": {
-    "available": false,
-    "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown-road-trip"
-  },
   "TRC USA Partner Shop Postcard - Jane Manfredi and Good Postage": {
     "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/trc-usa-partner-shop-postcard-jane-manfredi-and-good-postage"
@@ -364,7 +360,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-penholder-m-olive"
   },
   "Olive (Passport Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-olive"
   },
   "010 Repair Kit Spare Colors": {
@@ -832,7 +828,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-lined-notebook"
   },
   "Blue (Regular Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-blue"
   },
   "Camel (Regular Size)": {
