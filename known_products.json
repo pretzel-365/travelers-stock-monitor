@@ -364,7 +364,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/trc-fountain-pen-nib-replacement"
   },
   "ROLLERBALL PEN Replacement Nib": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/trc-rollerball-pen-nib-replacement"
   },
   "028 Refill Card File": {
@@ -432,7 +432,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/trc-spiral-ring-notebook-b6-dw-kraft"
   },
   "(A5 Slim) Paper Pocket": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/trc-spiral-ring-notebook-a5-slim-paper-pocket"
   },
   "(A5 Slim) Blank MD Paper White": {
@@ -448,7 +448,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/trc-spiral-ring-notebook-a6-slim-md-white"
   },
   "(B6) Photo File": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/trc-spiral-ring-notebook-b6-photo-file"
   },
   "(B6) Watercolor Paper": {
