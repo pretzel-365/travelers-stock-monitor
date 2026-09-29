@@ -172,7 +172,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/hibi-10-minutes-aroma-trc-geranium"
   },
   "Olive (Regular Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-olive"
   },
   "SPIRAL RING NOTEBOOK (A5 Slim) TRAVEL & SKETCH": {
@@ -544,7 +544,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-md-paper-cream"
   },
   "011 Connecting Rubber Band (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-connecting-rubber-band"
   },
   "010 Kraft Paper Folder (Passport Size)": {
@@ -588,11 +588,11 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-blue"
   },
   "Camel (Passport Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-camel"
   },
   "Brown (Passport Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-brown"
   },
   "Black (Passport Size)": {
@@ -656,7 +656,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-blue"
   },
   "Camel (Regular Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-camel"
   },
   "Brown (Regular Size)": {
