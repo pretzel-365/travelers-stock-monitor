@@ -48,7 +48,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/tf-refill-black-passport-size"
   },
   "20th Anniversary Customization Set": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-20th-anniversary-customization-set"
   },
   "TRAVELER'S notebook ROAD TRIP Brown (Regular Size)": {
@@ -652,7 +652,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-weekly-free-vertical"
   },
   "017 Free Monthly Diary": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-free-diary-monthly"
   },
   "014 Kraft Paper Notebook": {
@@ -696,7 +696,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-camel"
   },
   "Brown (Regular Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown"
   },
   "Black (Regular Size)": {
