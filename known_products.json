@@ -1,4 +1,44 @@
 {
+  "2027 Monthly (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/2027-weekly-memo-regular-size-copy"
+  },
+  "2027 Weekly + Memo (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/2027-weekly-memo-regular-size"
+  },
+  "Customized Sticker Set for Diary 2027": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/customized-sticker-set-for-diary-2027"
+  },
+  "2027 Weekly (Passport Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/2026-weekly-passport-size"
+  },
+  "2027 Monthly (Passport Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/2027-monthly-passport-size"
+  },
+  "2027 Weekly Vertical (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/2027-weekly-vertical-regular-size"
+  },
+  "Clear Folder 2027 (Passport Size)": {
+    "available": false,
+    "url": "https://shop.travelerscompanyusa.com/products/clear-folder-2027-passport-size"
+  },
+  "Clear Folder 2027 (Regular Size)": {
+    "available": false,
+    "url": "https://shop.travelerscompanyusa.com/products/clear-folder-2027-regular-size"
+  },
+  "Plastic Sheet 2027 (Passport Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/plastic-sheet-2027-passport-size"
+  },
+  "Plastic Sheet 2027 (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/plastic-sheet-2027-regular-size"
+  },
   "Plastic Sheet 2026 (Regular Size)": {
     "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-plastic-sheet-2026-regular-size"
@@ -8,7 +48,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/tf-refill-black-passport-size"
   },
   "20th Anniversary Customization Set": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-20th-anniversary-customization-set"
   },
   "TRAVELER'S notebook ROAD TRIP Brown (Regular Size)": {
@@ -136,7 +176,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-card-file"
   },
   "006 Pocket Sticker (L)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-pocket-stickers-l"
   },
   "004 Pocket Sticker": {
@@ -460,7 +500,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/brass-template-bookmark-alphabet"
   },
   "TEMPLATE BOOKMARK Number": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/brass-template-bookmark-number"
   },
   "RULER": {
@@ -520,7 +560,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-water-color-paper"
   },
   "014 Dot Grid (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-dot-grid"
   },
   "013 MD Paper Cream (Passport Size)": {
@@ -560,7 +600,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-free-diary-weekly"
   },
   "006 Free Monthly Diary (Passport size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-free-diary-monthly"
   },
   "005 Lightweight Paper Notebook (Passport Size)": {
@@ -580,7 +620,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-line-md"
   },
   "Blue (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-blue"
   },
   "Camel (Passport Size)": {
@@ -632,7 +672,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-binder-for-refills"
   },
   "005 Free Diary": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-free-diary-daily"
   },
   "003 Blank Notebook": {
@@ -656,7 +696,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-camel"
   },
   "Brown (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown"
   },
   "Black (Regular Size)": {
