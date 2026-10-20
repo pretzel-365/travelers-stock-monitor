@@ -39,10 +39,6 @@
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/plastic-sheet-2027-regular-size"
   },
-  "Plastic Sheet 2026 (Regular Size)": {
-    "available": false,
-    "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-plastic-sheet-2026-regular-size"
-  },
   "TF Refill Black (Passport Size)": {
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/tf-refill-black-passport-size"
@@ -696,7 +692,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-camel"
   },
   "Brown (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown"
   },
   "Black (Regular Size)": {
