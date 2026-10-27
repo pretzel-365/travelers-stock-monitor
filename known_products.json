@@ -1,4 +1,8 @@
 {
+  "Olive (Passport Size)": {
+    "available": false,
+    "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-olive"
+  },
   "2027 Monthly (Regular Size)": {
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/2027-weekly-memo-regular-size-copy"
@@ -214,10 +218,6 @@
   "016 Pen Holder (M) Olive": {
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-penholder-m-olive"
-  },
-  "Olive (Passport Size)": {
-    "available": false,
-    "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-olive"
   },
   "010 Repair Kit Spare Colors": {
     "available": true,
