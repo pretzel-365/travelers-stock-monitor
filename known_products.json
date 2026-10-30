@@ -224,7 +224,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-010-repair-kit-spare-colors"
   },
   "009 Repair Kit Standard Colors": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-009-repair-kit-standard-colors"
   },
   "018 Accordion Fold Paper (Passport Size)": {
@@ -660,7 +660,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-light-paper-notebook"
   },
   "012 Sketch Paper Notebook": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-sketch-notebook"
   },
   "011 Refill Binder": {
