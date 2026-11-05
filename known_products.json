@@ -323,11 +323,11 @@
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/tf-charm-airplane"
   },
-  "Leather Balsam 50mL": {
+  "Leather Balsam (50 mL)": {
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/renapur-leather-balsam-50ml"
   },
-  "Leather Balsam 125mL": {
+  "Leather Balsam (125 mL)": {
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/renapur-leather-balsam-retail-125ml"
   },
@@ -648,7 +648,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-lined-notebook"
   },
   "Blue (Regular Size)": {
-    "available": false,
+    "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-blue"
   },
   "Camel (Regular Size)": {
