@@ -52,7 +52,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-20th-anniversary-customization-set"
   },
   "ROAD TRIP Brown (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown-road-trip"
   },
   "TRAVELER'S notebook Cotton Zipper Case Coffee (Passport Size)": {
@@ -624,7 +624,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-light-paper-notebook"
   },
   "012 Sketch Paper Notebook": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-sketch-notebook"
   },
   "011 Refill Binder": {
