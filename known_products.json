@@ -1,4 +1,76 @@
 {
+  "TF Brass Badge Bear": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-brass-badge-bear"
+  },
+  "TF Brass Charm Little Bear": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-brass-charm-little-bear"
+  },
+  "TF Leather Tag Bear": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-holiday-bear-leather-tag"
+  },
+  "Leather Zipper Case Brown (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-brown"
+  },
+  "Leather Zipper Case Black (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-black"
+  },
+  "Sacoche Red": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-sacoche-red"
+  },
+  "Leather Zipper Case Blue (Passport Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-pp-size-blue"
+  },
+  "Leather Zipper Case Blue (Regular Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-blue"
+  },
+  "Leather Zipper Case Brown (Passport Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-pp-size-brown"
+  },
+  "Leather Zipper Case Black (Passport Size)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-pp-size-black"
+  },
+  "Canvas Pouch Olive (M)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-m-olive"
+  },
+  "Canvas Pouch Blue (M)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-m-blue"
+  },
+  "Canvas Pouch Beige (SS)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-ss-beige"
+  },
+  "Canvas Pouch Blue (SS)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-ss-blue"
+  },
+  "Canvas Pouch Olive (SS)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-ss-olive"
+  },
+  "Canvas Pouch Black (SS)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-ss-black"
+  },
+  "Canvas Pouch Black (M)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-m-black"
+  },
+  "Canvas Pouch Beige (M)": {
+    "available": true,
+    "url": "https://shop.travelerscompanyusa.com/products/tf-canvas-pouch-m-beige"
+  },
   "ROAD TRIP Brown (Regular Size)": {
     "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown-road-trip"
@@ -148,7 +220,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-pocket-stickers"
   },
   "004 Zipper Case (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-zipper-pocket"
   },
   "TF Original Stainless Steel Bottle - Blue Grey": {
@@ -528,7 +600,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-passport-size-md-paper-cream"
   },
   "027 Watercolor Paper": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-water-color-paper"
   },
   "026 Dot Grid": {
@@ -596,7 +668,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-black"
   },
   "021 Connecting Rubber Band": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-connecting-rubber-band"
   },
   "020 Kraft Paper Folder": {
@@ -656,7 +728,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-camel"
   },
   "Brown (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-brown"
   },
   "Black (Regular Size)": {
