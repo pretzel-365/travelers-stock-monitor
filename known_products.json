@@ -28,7 +28,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-pp-size-blue"
   },
   "Leather Zipper Case Blue (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-blue"
   },
   "Leather Zipper Case Brown (Passport Size)": {
@@ -186,10 +186,6 @@
   "TRAVELER'S notebook Cotton Zipper Case Olive (Passport Size)": {
     "available": true,
     "url": "https://shop.travelerscompanyusa.com/products/tf-travelers-notebook-cotton-zipper-case-olive-passport-size"
-  },
-  "Appointment": {
-    "available": true,
-    "url": "https://shop.travelerscompanyusa.com/products/appointment"
   },
   "TRAVELER'S notebook Cotton Zipper Case Olive": {
     "available": true,
