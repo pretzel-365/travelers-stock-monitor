@@ -12,11 +12,11 @@
     "url": "https://shop.travelerscompanyusa.com/products/tf-holiday-bear-leather-tag"
   },
   "Leather Zipper Case Brown (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-brown"
   },
   "Leather Zipper Case Black (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/tf-leather-zipper-case-black"
   },
   "Sacoche Red": {
@@ -724,7 +724,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-blue"
   },
   "Camel (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-camel"
   },
   "Brown (Regular Size)": {
