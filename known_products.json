@@ -652,7 +652,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-blue"
   },
   "Camel (Passport Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-passport-size-camel"
   },
   "Brown (Passport Size)": {
@@ -716,7 +716,7 @@
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-refill-lined-notebook"
   },
   "Blue (Regular Size)": {
-    "available": true,
+    "available": false,
     "url": "https://shop.travelerscompanyusa.com/products/travelers-notebook-blue"
   },
   "Camel (Regular Size)": {
